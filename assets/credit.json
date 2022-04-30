@@ -1,0 +1,26 @@
+{
+    "Images" : [
+        {
+            "Author" : "Eduardo Cano Photo Co.",
+            "Source" : "unsplash.com",
+            "Link" : "https://unsplash.com/photos/upwjZcRCFiA"
+        },
+    ],
+    "Videos" : [
+        {
+            "Author" : "GamOl",
+            "Source" : "pexels.com",
+            "Link" : "https://www.pexels.com/video/light-holiday-art-night-7952139/"
+        },
+        {
+            "Author" : "GamOl",
+            "Source" : "pexels.com",
+            "Link" : "https://www.pexels.com/video/light-nature-fashion-creative-9848956/"
+        },
+        {
+            "Author" : "GamOl",
+            "Source" : "pexels.com",
+            "Link" : "https://www.pexels.com/video/fantasy-hole-overlooking-a-mystic-crystals-11160413/"
+        }
+    ]
+}
