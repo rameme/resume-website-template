@@ -1,0 +1,5 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/0230dba2-5d62-49fe-8acd-cae5fa3119e8/resourceGroups/Rameme/providers/Microsoft.Web/sites/rameme",
+    "appService.deploySubpath": ".",
+    "liveServer.settings.port": 5501
+}

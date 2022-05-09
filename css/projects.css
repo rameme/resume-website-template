@@ -9,9 +9,9 @@
 /* Card */
 .card-container .card{
   position: relative;
-  width: 320px;
+  width: 315px;
   height: 450px;
-  background: #04041c;
+  background-color: rgb(10, 10, 10);
   border-radius: 20px;
   overflow: hidden;
 }
@@ -130,4 +130,84 @@
 .card-container .card:hover .contentBx a{
   opacity: 1;
   transform: translateY(0px);
+}
+
+/* Other Projects*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.container-project {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  /* background-color: rgba(240, 240, 240, 1); */
+  background-color: rgb(10, 10, 10);
+  color: #cccaca;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 100%;
+}
+
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tag-teal {
+  background-color: #47bcd4;
+}
+
+.tag-purple {
+  background-color: #5e76bf;
+}
+
+.tag-pink {
+  background-color: #cd5b9f;
+}
+
+.card-body ul {
+  font-size: 13px;
+  margin: 0 0 20px;
+}
+
+.card-body p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+
+.user-info h5 {
+  margin: 0;
+}
+
+.user-info small {
+  color: #8e9294;
 }

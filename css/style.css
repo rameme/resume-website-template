@@ -124,7 +124,7 @@ body, html {
   justify-items: center;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to top, #5d2482 -100%, #000016 100%);
+  background-image: linear-gradient(to top, #5d2482 -100%, #000016 120%);
 }
 
 .card {
