@@ -29,24 +29,43 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
   </head>
-  <body>
+
+  <body class="">
 
     <!-- Navbar -->
-    <div id="nav-placeholder"> </div>
-    <script>
-      $(function(){
-        $("#nav-placeholder").load("/template/nav.html");
-      });
-      </script>
+    <nav class="navbar navbar-expand navbar-dark fixed-top" style="background-color: #0c042c;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"> 
+          <img src="../assets/logo/logo-white.svg" alt="R logo" width="30" height="24">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
     <!--end of Navigation bar-->
 
     <!-- About -->
-    <section class="h-100 w-100">
+    <section>
       <div class="container text-white">
         <h2 class="fw-light display-3 font-2">About me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis
-          blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat
-          reprehenderit expedita.</p>
+        <p>I'm graduating May 2022 with a BS in Computer Science. I intend to persue an MS in Computer Science with a focus on cybersecurity. After graduation, I will my start an internship in Summer 2022 and go back to school in Spring 2023.</p>
       </div>
 
       <div class="container mt-5">
@@ -58,11 +77,11 @@
               <div class="title-total">
                 <div class="title">Software Engineer</div>
                 <h2>Ramim Alam</h2>
-                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu risus quis varius quam quisque.</div>
+                <div class="desc">I'm a computer scientist interested in cybersecurity and graphics design. I have experience with full-stack development, android, and some UNIX development.</div>
                 <div class="actions">
-                  <button><i class="bi bi-linkedin"></i></button>
-                  <button><i class="bi bi-github"></i></i></button>
-                  <button><i class="bi bi-person-fill"></i></button>
+                  <button onclick="location.href='https://www.linkedin.com/in/ramim-alam-7454a1215/'"><i class="bi bi-linkedin"></i></button>
+                  <button onclick="location.href='https://github.com/rameme'"><i class="bi bi-github"></i></i></button>
+                  <button onclick="location.href='https://rameme.github.io/rameme/'"><i class="bi bi-person-fill"></i></button>
                 </div>
               </div>
           </div>
@@ -73,14 +92,16 @@
     </section>
 
     <!-- Footer -->
-    <div id="footer-placeholder">
-      <script>
-        $(function(){
-          $("#footer-placeholder").load("/template/footer.html");
-        });
-        </script>
-      <!--end of Footerr-->
-    </div>
+    <section>
+      <footer class="text-white text-center text-lg-start d-none">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+          © 2022 Copyright:
+          <a class="text-white" href="https://ramim.live">ramim.live</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </section>
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
