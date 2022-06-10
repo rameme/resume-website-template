@@ -22,7 +22,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="../assets/logo/logo.svg">
+    <!-- CHANGE: change to your own website icon -->
+    <link rel="icon" type="image/x-icon" href="../assets/logo/logo-icon.svg">
 
     <title>Projects</title>
 
@@ -33,8 +34,11 @@
   <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand navbar-dark fixed-top" style="background-color: #0c042c;">
+    <!-- CHANGE: Change "background-color" to fit your video. By default it is set to transparent  -->
+    <nav class="navbar navbar-expand navbar-dark fixed-top" style="background-color: #00000000;">
       <div class="container-fluid">
+
+        <!-- CHANGE: change to your own logo -->
         <a class="navbar-brand" href="../index.html"> 
           <img src="../assets/logo/logo-white.svg" alt="R logo" width="30" height="24">
         </a>
@@ -52,6 +56,9 @@
               <a class="nav-link" href="projects.html">Projects</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
           </ul>
@@ -64,163 +71,173 @@
     <!-- Featured Project -->
     <section class="pt-5 mt-5 text-white w-100">
       <div class="container">
-        <h2 class="fw-light display-3">Featured Projects</h2>
+        <!-- CHANGE: change the name of the section -->
+        <h2 class="fw-light display-3">Your Featured Projects</h2>
+      </div>
+
+      <div class="container text-white">
+        <div class="row align-items-center">
+
+          <!-- Featured Project 1 -->
+          <div class="col mx-auto">
+            <div class="card-container d-flex justify-content-center flex-nowrap">
+              <div class="card">
+
+                <!-- CHANGE: change to your project logo or remove this div -->
+                <div class="imgBx">
+                  <img src="../assets/logo/logo.png" >
+                </div>
+
+                <!-- CHANGE: change to your project name and description -->
+                <div class="contentBx">
+                  <h2>Resume Website Template</h2>
+
+                  <div class="desc">
+                    <h3>Template of my resume website. Feel free to fork and use it. :D</h3>
+                  </div>
+                  
+                  <a href="https://github.com/rameme/resume-website-template">View on Github</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Featured Project 2 -->
+          <div class="col mx-auto">
+            <div class="card-container d-flex justify-content-center flex-nowrap mb-5 mt-5">
+              <div class="card">
+
+                <!-- CHANGE: change to your project logo or remove this div -->
+                <div class="imgBx">
+                  <img src="../assets/logo/logo.png" >
+                </div>
+
+                <div class="contentBx">
+
+                  <!-- CHANGE: change to your project name and description -->
+                  <h2>Resume Website Template</h2>
+
+                  <div class="desc">
+                    <h3>Template of my resume website. Feel free to fork and use it. :D</h3>
+                  </div>
+                  
+                  <a href="https://github.com/rameme/resume-website-template">View on Github</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
 
-    <div class="container text-white">
-      <div class="row align-items-center">
-
-        <div class="col mx-auto">
-          <div class="card-container d-flex justify-content-center flex-nowrap">
-            <div class="card">
-
-              <div class="imgBx">
-                <img src="../assets/logo/block-picker.svg">
-              </div>
-
-              <div class="contentBx">
-                <h2>Block Picker</h2>
-
-                <div class="desc">
-                  <h3>Block picker is an android application that help you create color palettes using Minecraft blocks.</h3>
-                </div>
-                
-                <a href="https://github.com/rameme/block-picker">View on Github</a>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col mx-auto">
-          <div class="card-container d-flex justify-content-center flex-nowrap mb-5 mt-5">
-            <div class="card">
-
-              <div class="imgBx">
-                <img src="../assets/logo/rePhoto.svg">
-              </div>
-
-              <div class="contentBx">
-                <h2>rePhoto</h2>
-
-                <div class="desc">
-                  <h3>rePhoto is a website that makes it eaiser to align and take pictures of a places or objects.</h3>
-                </div>
-                
-                <a href="https://github.com/Project-rePhoto/rePhoto">View on Github</a>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- Project -->
+    <!-- Other project -->
     <section class="text-white w-100">
       <div class="container">
-        <h2 class="fw-light display-3">Projects</h2>
-        <p> Project I've worked on as part of the my undergraduate studies </p>
+
+        <!-- CHANGE: Change the name of the section and write your own description -->
+        <h2 class="fw-light display-3">Your Projects</h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       </div>
-    </section>
 
-    <div class="container mb-5">
+      <div class="container mb-5">
 
-      <div class="container-project">
+        <div class="container-project">
 
-        <div class="card">
-          <div class="card-header">
-          </div>
-          <div class="card-body">
-            <span class="tag tag-teal mb-1">Full Stack</span>
-            <h4>
-              Graduation Application System, Team of 5
-            </h4>
-            <div class="project-info">
-              Full-stack University Admission/Graduation Application
-              <ul>
-                <li>Designed and implemented a full stack application- used HTML/CSS & JavaScript for front end, PHP for application
-                  server, MySQL for DBMS backend, and AWS to host the development environment.</li>
-                <li>On Phase I, designed a database system to allow students to register and apply for graduate school. Created a Faculty
-                  portal to allow staff to review student application, assign advisors, and admit students.</li>
-                <li>On Phase II, integrated graduate application system with course registration. Using the system, a graduate student
-                  can apply for a degree, Faculty can admit students, admitted students can Register for classes, and professors can
-                  assign.</li>
-              </ul>
+          <!-- Your Project Project 1 -->
+          <div class="card">
+            <div class="card-header">
             </div>
-            <div class="user">
-              <div class="user-info">
-                <h5>March – June 2020</h5>
-                <small>Database Systems</small>
+            <div class="card-body">
+              <!-- CHANGE: update tag -->
+              <span class="tag tag-teal mb-1">Tag</span>
+              <h4>
+                <!-- CHANGE: update title -->
+                Project 1
+              </h4>
+              <div class="project-info">
+                <!-- CHANGE: update sub heading -->
+                Project 1 sub heading
+
+                <!-- CHANGE: update list to your project description -->
+                <ul>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque viverra mauris in.</li>
+                  <li>ibh ipsum consequat nisl vel.</li>
+                  <li>Non quam lacus suspendisse faucibus interdum posuere lorem ipsum. Etiam dignissim diam quis enim lobortis.</li>
+                </ul>
+              </div>
+              <div class="user">
+                <div class="user-info">
+                  <!-- CHANGE: dates or other information -->
+                  <h5>March – June 2022</h5>
+                  <small>Database Systems</small>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="card">
-          <div class="card-header">
-          </div>
-          <div class="card-body">
-            <span class="tag tag-purple mb-1">C, UNIX</span>
-            <h4>
-              DockV6, Team of 3 
-            </h4>
-            <div class="project-info">
-              Allow multi-threading in UNIX Operating System
-              <ul>
-                <li>Implemented blocking mutexes and condition variables to provide synchronization between shared buffer.</li>
-              </ul>
+          <!-- Your Project Project 2 -->
+          <div class="card">
+            <div class="card-header">
             </div>
-            <div class="user">
-              <div class="user-info">
-                <h5>November – December 2020</h5>
-                <small>Operating Systems</small>
+            <div class="card-body">
+              <!-- CHANGE: update tag -->
+              <span class="tag tag-purple mb-1">Tag</span>
+              <h4>
+                <!-- CHANGE: update title -->
+                Project 2
+              </h4>
+              <div class="project-info">
+                <!-- CHANGE: update sub heading -->
+                Project 2 sub heading
+                <ul>
+                  <li>Adipiscing enim eu turpis egestas. Nunc vel risus commodo viverra maecenas accumsan lacus. In nibh mauris cursus mattis molestie a iaculis. Gravida neque convallis a cras semper auctor. Nisi est sit amet facilisis magna etiam tempor. Id neque aliquam vestibulum morbi blandit. Vitae et leo duis ut. </li>
+                </ul>
+              </div>
+              <div class="user">
+                <div class="user-info">
+                  <!-- CHANGE: dates or other information -->
+                  <h5>November – December 2022</h5>
+                  <small>Other information</small>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-header">
-          </div>
-          <div class="card-body">
-            <span class="tag tag-pink mb-1">Computer Architecture</span>
-            <h4>
-              Processor Design, Team of 3
-            </h4>
-            <div class="project-info">
-              Allow multi-threading in UNIX Operating System
-              <ul>
-                <li>Designed a subset of microarchitecture- datapath and control signal for a simple processor based off LC3 using
-                  CedarLogic- a digital logic simulator</li>
-                <li>Processor specification: has four, 8-bit register; all data types are 2’s complement integers; has a RAM with
-                  addressability of 8 bits and address space of 256; the processor has 5 instruction (opcodes): LOAD, STORE, AND, ADD,
-                  and BRnpz. </li>
-              </ul>
+          
+          <!-- Your Project Project 3 -->
+          <div class="card">
+            <div class="card-header">
             </div>
-            <div class="user">
-              <div class="user-info">
-                <h5>September – October 2019</h5>
-                <small>Computer Architecture</small>
+            <div class="card-body">
+              <!-- CHANGE: update tag -->
+              <span class="tag tag-pink mb-1">Tag</span>
+              <h4>
+                <!-- CHANGE: update title -->
+                Project 3
+              </h4>
+              <div class="project-info">
+                <!-- CHANGE: update sub heading -->
+                Project 3 sub heading
+                <ul>
+                  <li>Vestibulum lorem sed risus ultricies. Nibh sed pulvinar proin gravida. Pharetra pharetra massa massa ultricies mi. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Bibendum at varius vel pharetra vel turpis.</li>
+                  <li>Pellentesque habitant morbi tristique senectus et netus et malesuada. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Sit amet nisl purus in mollis nunc sed. </li>
+                </ul>
+              </div>
+              <div class="user">
+                <div class="user-info">
+                  <!-- CHANGE: dates or other information -->
+                  <h5>September – October 2012</h5>
+                  <small>Computer Architecture</small>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </div>  
       </div>
       
-    </div>
-
-    <!-- Footer -->
-    <footer class="text-white text-center text-lg-start pb-2 d-none">
-      <!-- Copyright -->
-      <div class="text-center p-3">
-        © 2022 Copyright:
-        <a class="text-white" href="https://ramim.live">ramim.live</a>
-      </div>
-      <!-- Copyright -->
-    </footer>
+    </section>
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

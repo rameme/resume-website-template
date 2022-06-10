@@ -1,7 +1,6 @@
-/* COULD BE USEFUL */
-/* https://codepen.io/Rameme/pen/yLvLbGd */
+/* Card */
+/* https://codepen.io/katywellington91/pen/PoGVzwZ */
 
-/* Card */ 
 .card-container{
   position: relative;
 }
@@ -132,7 +131,8 @@
   transform: translateY(0px);
 }
 
-/* Other Projects*/
+/* Other Projects */
+/* https://codepen.io/eyupucmaz/pen/oNbeXOb */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   box-sizing: border-box;
@@ -147,7 +147,6 @@
 
 .card {
   margin: 10px;
-  /* background-color: rgba(240, 240, 240, 1); */
   background-color: rgb(10, 10, 10);
   color: #cccaca;
   border-radius: 10px;
@@ -210,4 +209,42 @@
 
 .user-info small {
   color: #8e9294;
+}
+
+/* portpolio */
+/* https://codepen.io/iamsaief/pen/jObaoKo */
+
+/* Main CSS */
+.grid-wrapper > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-wrapper > div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
 }

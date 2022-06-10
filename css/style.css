@@ -1,8 +1,16 @@
-/* */
-.navbar  {
-  z-index: 99999;
+/* CHANGE: html body, change "background" to adjust website background color */
+body, html {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient( 150.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 200% );
+  /* background: linear-gradient(45deg, #190f2c, #200b30); */
 }
 
+/* CHANGE: change font */
 /* Fonts */
 .font-1 {
   font-family: 'Radio Canada', sans-serif;
@@ -10,6 +18,18 @@
 
 .font-2{
   font-family: 'Roboto', sans-serif;
+}
+
+/* Nav bar */
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.navbar  {
+  z-index: 99999;
 }
 
 /* Background Video */
@@ -116,17 +136,6 @@ video {
 /* Card */
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
 
-body, html {
-  font-family: Roboto, sans-serif;
-  margin: 0;
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(to top, #5d2482 -100%, #000016 120%);
-}
-
 .card {
   background: #ffffff;
   border-radius: 4px;
@@ -180,12 +189,13 @@ path {
   width: 100%;
 }
 
+/* CHANGE: change "background-image" to update about me image*/
 .portada {
   width: 100%;
   height: 100%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-image: url("https://images.unsplash.com/photo-1573614999645-e5f0f16ec15d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-image: url("https://images.unsplash.com/photo-1643479228299-071f0d06c707?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   background-position: bottom center;
   background-size: cover;
 }
@@ -213,9 +223,10 @@ button {
 }
 
 *::-webkit-scrollbar-track {
-  background: #000016;
+  background: #000000;
 }
 
+/* CHANGE: change scroll bar color */
 *::-webkit-scrollbar-thumb {
   background-color: #070430;
 }

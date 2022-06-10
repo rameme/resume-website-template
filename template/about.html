@@ -21,7 +21,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="../assets/logo/logo.svg">
+    <!-- CHANGE: change to your own website icon -->
+    <link rel="icon" type="image/x-icon" href="../assets/logo/logo-icon.svg">
 
     <title>About</title>
 
@@ -30,12 +31,15 @@
 
   </head>
 
-  <body class="">
+  <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand navbar-dark fixed-top" style="background-color: #0c042c;">
+    <!-- CHANGE: Change "background-color" to fit your video. By default it is set to transparent  -->
+    <nav class="navbar navbar-expand navbar-dark fixed-top" style="background-color: #00000000;">
       <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html"> 
+
+        <!-- CHANGE: change to your own logo -->
+        <a class="navbar-brand" href="../index.html">
           <img src="../assets/logo/logo-white.svg" alt="R logo" width="30" height="24">
         </a>
         
@@ -52,6 +56,9 @@
               <a class="nav-link" href="projects.html">Projects</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
           </ul>
@@ -63,9 +70,10 @@
 
     <!-- About -->
     <section>
-      <div class="container text-white">
+      <div class="container text-white mt-5 pt-5">
         <h2 class="fw-light display-3 font-2">About me</h2>
-        <p>I'm graduating May 2022 with a BS in Computer Science. I intend to persue an MS in Computer Science with a focus on cybersecurity. After graduation, I will my start an internship in Summer 2022 and go back to school in Spring 2023.</p>
+        <!-- CHANGE: Write a short description about yourself or remove this paragraph  -->
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
       </div>
 
       <div class="container mt-5">
@@ -75,33 +83,30 @@
           <div class="card-text">
             <div class="portada"></div>
               <div class="title-total">
+
+                <!-- CHANGE: Update to your role -->
                 <div class="title">Software Engineer</div>
+
+                <!-- CHANGE: Change to your role -->
                 <h2>Ramim Alam</h2>
-                <div class="desc">I'm a computer scientist interested in cybersecurity and graphics design. I have experience with full-stack development, android, and some UNIX development.</div>
+
+                <!-- CHANGE: Write a short description about yourself -->
+                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh praesent tristique magna sit. </div>
+                
+                <!-- CHANGE: Update links to your social media -->
                 <div class="actions">
-                  <button onclick="location.href='https://www.linkedin.com/in/ramim-alam-7454a1215/'"><i class="bi bi-linkedin"></i></button>
+                  <button onclick="location.href='https://www.linkedin.com/in/ramim-alam/'"><i class="bi bi-linkedin"></i></button>
                   <button onclick="location.href='https://github.com/rameme'"><i class="bi bi-github"></i></i></button>
-                  <button onclick="location.href='https://rameme.github.io/rameme/'"><i class="bi bi-person-fill"></i></button>
+                  <button onclick="location.href='https://github.com/rameme/resume-website-template'"><i class="bi bi-code-slash"></i></i></button>
                 </div>
               </div>
           </div>
                 
         </div>
       </div>
+          
+    </section>
     
-    </section>
-
-    <!-- Footer -->
-    <section>
-      <footer class="text-white text-center text-lg-start d-none">
-        <!-- Copyright -->
-        <div class="text-center p-3">
-          © 2022 Copyright:
-          <a class="text-white" href="https://ramim.live">ramim.live</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
-    </section>
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
